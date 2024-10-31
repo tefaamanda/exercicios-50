@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 17</title>
+</head>
+<body>
+    <!-- 17. Verifique se um número é múltiplo de 3 e/ou de 5. -->
+    <script>
+        var numero = 15
+        if (numero % 3 == 0 && numero % 5 != 0) {
+            alert("O número é múltiplo de 3.")
+        }
+        else if (numero % 5 == 0 && numero % 3 != 0) {
+            alert("O número é múltiplo de 5.")
+        }
+        else if (numero % 3 == 0 && numero % 5 == 0) {
+            alert("O número é múltiplo de 3 e de 5.")
+        }
+        else {
+            alert("O número não é múltiplo nem de 3 nem de 5.")
+        }
+    </script>
+</body>
+</html>

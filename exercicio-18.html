@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 18</title>
+</head>
+<body>
+    <!-- 18. Escreva uma função que retorne o menor de três números. -->
+    <script>
+        function menorNumero(numero1, numero2, numero3) {
+            if (numero1 < numero2 && numero1 < numero3) {
+                alert("O " + numero1 + " é o menor número.")
+            }
+            else if (numero2 < numero1 && numero2 < numero3) {
+                alert("O " + numero2 + " é o menor número.")
+            }
+            else if (numero3 < numero1 && numero3 < numero2) {
+                alert("O " + numero3 + " é o menor número.")
+            }
+        }
+        var resultado = menorNumero(6, 9, 3)
+        alert(resultado)
+    </script>
+</body>
+</html>
