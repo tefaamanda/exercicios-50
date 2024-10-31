@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 37</title>
+</head>
+<body>
+    <!-- 37. Crie uma função que retorne o segundo maior número de um array. -->
+    <script>
+        var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            function segundo(numero) {
+                var maior = -1
+                var segundo = -1
+                for (var num of numero) {
+                    if (num > maior) {
+                        segundo = maior
+                        maior = num
+                    }
+                    else if (num > segundo && num < maior) {
+                        segundo = num
+                    }
+                }
+                return segundo
+            }
+            alert(segundo(numeros))
+    </script>
+</body>
+</html>
