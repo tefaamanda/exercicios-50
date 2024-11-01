@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 49</title>
+</head>
+<body>
+    <!-- 49. Crie uma função que verifique se uma pessoa pode dirigir (idade >= 18). -->
+    <script>
+        const Pessoa = {
+            nome: "Kátia",
+            idade: 35,
+            cidade: "Birigui - SP"
+        }
+        function verificarIdade(Pessoa) {
+            if (Pessoa.idade >= 18) {
+                alert("Você pode dirigir!")
+            } else {
+                alert("Você NÃO pode dirigir!")
+            }
+        }  
+        verificarIdade(Pessoa)   
+    </script>
+</body>
+</html>

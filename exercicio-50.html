@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 50</title>
+</head>
+<body>
+    <!-- 50. Crie uma função que receba um objeto com informações de um produto e retorne uma string com o nome e o preço formatado. -->
+    <script>
+        const Produto = {
+            nome: "Garrafa",
+            preco: 50.00,
+        }
+
+        function retorno(Produto) {
+            for (valor in Produto) {
+                string = String(valor)
+            }
+            return("Nome do produto: " + Produto.nome + "Preco (R$): " + Produto.preco)
+        }  
+        var resultado = retorno(Pessoa)
+        console.log(resultado)
+    </script>
+</body>
+</html>

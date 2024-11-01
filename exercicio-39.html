@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 39</title>
+</head>
+<body>
+    <!-- 39. Dado um array de strings, retorne o array com todas as strings em maiúsculas. -->
+    <script>
+        var palavras = ["Por", "Favor", "Assina", "Minha", "Carteira", "De", "Trabalho"]
+            function stringMaiuscula(palavra) {
+                var resultado = []
+                for (var i = 0; i < palavra.length; i++) {
+                    resultado.push(palavra[i].toUpperCase())
+                }
+                return resultado
+            }
+            var resultado = stringMaiuscula(palavras)
+            alert(resultado)
+    </script>
+</body>
+</html>

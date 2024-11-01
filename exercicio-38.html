@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 38</title>
+</head>
+<body>
+    <!-- 38. Concatene todos os elementos de um array em uma única string. -->
+    <script>
+        var cores = ["Amarelo", "Azul", "Vermelho", "Rosa"]
+            function concatenaString(cor) {
+                var resultado = ""
+                for (var i = 0; i < cor.length; i++) {
+                    resultado += cor[i]
+                }
+                return resultado
+            }
+            var resultado = concatenaString(cores)
+            alert(resultado)
+    </script>
+</body>
+</html>

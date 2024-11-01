@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 40</title>
+</head>
+<body>
+    <!-- 40. Crie uma função que receba um array e retorne a quantidade de números ímpares. -->
+    <script>
+        var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        var impares = []
+        function numerosImpares(numeros){
+            for(i in numeros){
+                if(numeros[i] % 2 != 0)
+                impares.push(numeros[i])
+                }
+                return impares.length
+            }
+            alert("No array há " + numerosImpares(numeros) + " números ímpares.")
+    </script>
+</body>
+</html>

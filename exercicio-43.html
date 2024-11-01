@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 43</title>
+</head>
+<body>
+    <!-- 43. Crie uma função que receba um objeto e exiba suas propriedades e valores. -->
+    <script>
+        function exibir(objeto) {
+            for (valor in objeto) {
+                alert(valor + objeto[valor])
+            }
+        }
+        const Pessoa = {
+            nome: "Kátia",
+            idade: 35,
+            cidade: "Birigui - SP"
+        }
+        console.log(Pessoa)
+        exibir(Pessoa)
+    </script>
+</body>
+</html>
